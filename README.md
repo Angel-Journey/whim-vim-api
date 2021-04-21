@@ -4,12 +4,12 @@
 This application allows the user to mangage a list of their favorite hobbies. They can create new list entries, read their list, update pre-existing entries, and delete entries.
 
 # Important Links
-Other Repo
-Deployed API
-Deployed Client
+* Other Repo ...
+* Deployed API ...
+* Deployed Client ...
 
 # User Stories
-* As a user I want to sign in/up
+* As a user I want to sign in/up.
 * As a user I want to Create a new hobby entry.
 * As a user I want to Read multiple hobby entries.
 * As a user I want to Update a hobby entry I own.
@@ -30,4 +30,4 @@ Deployed Client
 ![User image](/images/Whim_Vim_User_Screen.png)
 
 # ERD
-![ERD image](/images/Whim_Vim_ERD.png)
+![ERD image](/images/Whim_Vim_ERD_New.png)

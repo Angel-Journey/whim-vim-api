@@ -129,6 +129,14 @@ router.patch('/change-password', requireToken, (req, res, next) => {
     .catch(next)
 })
 
+// INDEX
+// GET /users
+router.get('/users', (req, res, next) => {
+  User.find()
+    .then(users => res.json({ users: users }))
+    .catch(next)
+})
+
 router.delete('/sign-out', requireToken, (req, res, next) => {
   // create a new random token for the user, invalidating the current one
   req.user.token = null

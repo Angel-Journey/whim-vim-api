@@ -13,8 +13,9 @@ const userSchema = new mongoose.Schema({
   token: String
 }, {
   timestamps: true,
-  toObject: {
+  toJSON: {
     // remove `hashedPassword` field when we call `.toObject`
+    // changed it to `toJSON`
     transform: (_doc, user) => {
       delete user.hashedPassword
       return user
