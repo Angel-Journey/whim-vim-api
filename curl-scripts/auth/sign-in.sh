@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# EMAIL="test1@testmail.com" PASSWORD="NEWer" sh curl-scripts/auth/sign-in.sh
-# TOKEN="1286b06e8f13c420556863ba708f2229"
+# EMAIL="test1@testmail.com" PASSWORD="b" sh curl-scripts/auth/sign-in.sh
+# TOKEN="ceb06db4bea017cc08e0df06fef8e337"
 
 API="http://localhost:4741"
 URL_PATH="/sign-in"

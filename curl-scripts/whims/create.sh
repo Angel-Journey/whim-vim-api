@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# TOKEN="1286b06e8f13c420556863ba708f2229" TITLE="Soccer" TEXT="Playing Keeper" OWNER="608026380b5964f4481d508a" sh curl-scripts/whims/create.sh
+# TOKEN="ceb06db4bea017cc08e0df06fef8e337" TITLE="Soccer" TEXT="Playing Keeper" OWNER="608026380b5964f4481d508a" sh curl-scripts/whims/create.sh
 
-# ID="60806069967546f91e9560df"
+# ID="608080d4f64881fb446b511a"
 
 API="http://localhost:4741"
 URL_PATH="/whims"

@@ -12,6 +12,9 @@ const bcryptSaltRounds = 10
 // pull in error types and the logic to handle them and set status codes
 const errors = require('../../lib/custom_errors')
 
+// we'll use this function to send 404 when non-existant document is requested
+const handle404 = errors.handle404
+
 const BadParamsError = errors.BadParamsError
 const BadCredentialsError = errors.BadCredentialsError
 
@@ -142,6 +145,17 @@ router.delete('/sign-out', requireToken, (req, res, next) => {
   req.user.token = null
   // save the token and respond with 204
   req.user.save()
+    .then(() => res.sendStatus(204))
+    .catch(next)
+})
+
+// DESTROY
+// DELETE /users/:id
+router.delete('/users/:id', (req, res, next) => {
+  const id = req.params.id
+  User.findById(id)
+    .then(handle404)
+    .then(user => user.deleteOne())
     .then(() => res.sendStatus(204))
     .catch(next)
 })
