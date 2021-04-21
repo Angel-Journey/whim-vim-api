@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 # whim-vim-api
+
 # Application Title: A Description
 This application allows the user to mangage a list of their favorite hobbies. They can create new list entries, read their list, update pre-existing entries, and delete entries.
 
@@ -7,9 +7,6 @@ This application allows the user to mangage a list of their favorite hobbies. Th
 Other Repo
 Deployed API
 Deployed Client
-
-# Planning Story
-...
 
 # User Stories
 As a user I want to sign in/up
@@ -26,5 +23,8 @@ Bootstrap
 Javascript
 
 # Wireframes
+![Homepage image](/images/Whim_Vim_Homepage.png)
+![User Screen image](/images/Whim_Vim_User_screen.png)
 
 # ERD
+![ERD image](/images/Whim_Vim_ERD.png)
