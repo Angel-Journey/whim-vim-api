@@ -23,9 +23,12 @@ Bootstrap
 Javascript
 
 # Wireframes
+
+### Homepage
 ![Homepage image](/images/Whim_Vim_Homepage.png)
 
-![User Screen image](/images/Whim_Vim_User_screen.png)
+### User (post login)
+![User image](/images/Whim_Vim_User_screen.png)
 
 # ERD
 ![ERD image](/images/Whim_Vim_ERD.png)
