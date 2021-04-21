@@ -24,6 +24,7 @@ Javascript
 
 # Wireframes
 ![Homepage image](/images/Whim_Vim_Homepage.png)
+
 ![User Screen image](/images/Whim_Vim_User_screen.png)
 
 # ERD
