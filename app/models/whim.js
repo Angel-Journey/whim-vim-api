@@ -1,11 +1,11 @@
 const mongoose = require('mongoose')
 
 const whimSchema = new mongoose.Schema({
-  name: {
+  title: {
     type: String,
     required: true
   },
-  description: {
+  text: {
     type: String,
     required: true
   },
