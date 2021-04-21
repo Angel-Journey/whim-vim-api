@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ID="60805c185e823af86f152707" TOKEN="1286b06e8f13c420556863ba708f2229" sh curl-scripts/whims/destroy.sh
+# ID="60806069967546f91e9560df" TOKEN="1286b06e8f13c420556863ba708f2229" sh curl-scripts/whims/destroy.sh
 
 API="http://localhost:4741"
 URL_PATH="/whims"

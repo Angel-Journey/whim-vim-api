@@ -30,7 +30,7 @@ const router = express.Router()
 // CREATE
 // POST /whims
 router.post('/whims', requireToken, (req, res, next) => {
-  // set owner of new example to be current user
+  // set owner of new whim to be current user
   req.body.whim.owner = req.user.id
 
   Whim.create(req.body.whim)
@@ -69,13 +69,13 @@ router.patch('/whims/:id', requireToken, removeBlanks, (req, res, next) => {
 
   Whim.findById(req.params.id)
     .then(handle404)
-    .then(example => {
+    .then(whim => {
       // pass the `req` object and the Mongoose record to `requireOwnership`
       // it will throw an error if the current user isn't the owner
-      requireOwnership(req, example)
+      requireOwnership(req, whim)
 
       // pass the result of Mongoose's `.update` to the next `.then`
-      return example.updateOne(req.body.whim)
+      return whim.updateOne(req.body.whim)
     })
     // if that succeeded, return 204 and no JSON
     .then(() => res.sendStatus(204))
@@ -88,11 +88,11 @@ router.patch('/whims/:id', requireToken, removeBlanks, (req, res, next) => {
 router.delete('/whims/:id', requireToken, (req, res, next) => {
   Whim.findById(req.params.id)
     .then(handle404)
-    .then(example => {
+    .then(whim => {
       // throw an error if current user doesn't own `whim`
-      requireOwnership(req, example)
+      requireOwnership(req, whim)
       // delete the whim ONLY IF the above didn't throw
-      example.deleteOne()
+      whim.deleteOne()
     })
     // send back 204 and no content if the deletion succeeded
     .then(() => res.sendStatus(204))
