@@ -28,7 +28,7 @@ Javascript
 ![Homepage image](/images/Whim_Vim_Homepage.png)
 
 ### User (post login)
-![User image](/images/Whim_Vim_User_screen.png)
+![User image](/images/Whim_Vim_User_Screen.png)
 
 # ERD
 ![ERD image](/images/Whim_Vim_ERD.png)
