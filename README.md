@@ -16,10 +16,10 @@ Deployed Client
 * As a user I want to Delete a hobby entry I own.
 
 # Technologies Used
-jQuery
-HTML/CSS
-Bootstrap
-Javascript
+* jQuery
+* HTML/CSS
+* Bootstrap
+* Javascript
 
 # Wireframes
 
