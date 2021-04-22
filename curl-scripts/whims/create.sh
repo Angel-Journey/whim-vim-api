@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# TOKEN="ceb06db4bea017cc08e0df06fef8e337" TITLE="Soccer" TEXT="Playing Keeper" OWNER="608026380b5964f4481d508a" sh curl-scripts/whims/create.sh
+# TOKEN="ba3a51a87092db5b241a3a5ae22bcb74" TITLE="Soccer" TEXT="Playing Keeper" OWNER="608179c69a15fb0015f0da1d" sh curl-scripts/whims/create.sh
 
-# ID="608080d4f64881fb446b511a"
+# ID="60817a2b9a15fb0015f0da1e"
 
-API="http://localhost:4741"
+API="https://whim-vim-api.herokuapp.com"
 URL_PATH="/whims"
 
 curl "${API}${URL_PATH}" \

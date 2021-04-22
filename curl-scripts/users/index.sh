@@ -1,1 +1,1 @@
-curl --include 'http://localhost:4741/users'
+curl --include 'https://whim-vim-api.herokuapp.com/users'

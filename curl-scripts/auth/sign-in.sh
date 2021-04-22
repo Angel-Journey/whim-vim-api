@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # EMAIL="test1@testmail.com" PASSWORD="b" sh curl-scripts/auth/sign-in.sh
-# TOKEN="ceb06db4bea017cc08e0df06fef8e337"
+# TOKEN="ba3a51a87092db5b241a3a5ae22bcb74"
 
-API="http://localhost:4741"
+API="https://whim-vim-api.herokuapp.com"
 URL_PATH="/sign-in"
 
 curl "${API}${URL_PATH}" \

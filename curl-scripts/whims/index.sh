@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# TOKEN="1286b06e8f13c420556863ba708f2229" sh curl-scripts/whims/index.sh
+# TOKEN="ba3a51a87092db5b241a3a5ae22bcb74" sh curl-scripts/whims/index.sh
 
-API="http://localhost:4741"
+API="https://whim-vim-api.herokuapp.com"
 URL_PATH="/whims"
 
 curl "${API}${URL_PATH}" \

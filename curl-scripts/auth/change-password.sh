@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# TOKEN="1286b06e8f13c420556863ba708f2229" OLDPW="b" NEWPW="NEWer" sh curl-scripts/auth/change-password.sh
+# TOKEN="466bbc394c2ab05eeac12f3631d5d396" OLDPW="b" NEWPW="NEWer" sh curl-scripts/auth/change-password.sh
 
-API="http://localhost:4741"
+API="https://whim-vim-api.herokuapp.com"
 URL_PATH="/change-password"
 
 curl "${API}${URL_PATH}/" \

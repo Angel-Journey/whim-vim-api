@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # EMAIL="test1@testmail.com" PASSWORD="b" sh curl-scripts/auth/sign-up.sh
-# ID="6080e47653761b0015bf8f7b"
+# ID="608179c69a15fb0015f0da1d"
 
 API="https://whim-vim-api.herokuapp.com"
 URL_PATH="/sign-up"

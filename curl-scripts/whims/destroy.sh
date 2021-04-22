@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# ID="608080d4f64881fb446b511a" TOKEN="ceb06db4bea017cc08e0df06fef8e337" sh curl-scripts/whims/destroy.sh
+# ID="60817a2b9a15fb0015f0da1e" TOKEN="ba3a51a87092db5b241a3a5ae22bcb74" sh curl-scripts/whims/destroy.sh
 
-API="http://localhost:4741"
+API="https://whim-vim-api.herokuapp.com"
 URL_PATH="/whims"
 
 curl "${API}${URL_PATH}/${ID}" \
