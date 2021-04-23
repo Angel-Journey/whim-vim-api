@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# TOKEN="ba3a51a87092db5b241a3a5ae22bcb74" sh curl-scripts/whims/index.sh
+# TOKEN="9c7a4027d06ac4bc8719f71a49071a06" sh curl-scripts/whims/index.sh
 
 API="https://whim-vim-api.herokuapp.com"
 URL_PATH="/whims"

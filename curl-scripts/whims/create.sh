@@ -1,8 +1,12 @@
 #!/bin/sh
 
-# TOKEN="ba3a51a87092db5b241a3a5ae22bcb74" TITLE="Soccer" TEXT="Playing Keeper" OWNER="608179c69a15fb0015f0da1d" sh curl-scripts/whims/create.sh
+# TOKEN="9c7a4027d06ac4bc8719f71a49071a06" TITLE="Soccer" TEXT="Playing Keeper" OWNER="608179c69a15fb0015f0da1d" sh curl-scripts/whims/create.sh
 
-# ID="60817a2b9a15fb0015f0da1e"
+# ID="608310a433c2a20015fd8f2b"
+
+# TOKEN="9c7a4027d06ac4bc8719f71a49071a06" TITLE="Video Games" TEXT="Playing Rocket League" OWNER="608179c69a15fb0015f0da1d" sh curl-scripts/whims/create.sh
+
+# ID="608310ca33c2a20015fd8f2c"
 
 API="https://whim-vim-api.herokuapp.com"
 URL_PATH="/whims"
