@@ -48,11 +48,11 @@ router.post('/whims', requireToken, (req, res, next) => {
 // GET /examples
 router.get('/whims', requireToken, (req, res, next) => {
   Whim.find()
-    .then(examples => {
+    .then(whims => {
       // `examples` will be an array of Mongoose documents
       // we want to convert each one to a POJO, so we use `.map` to
       // apply `.toObject` to each one
-      return examples.map(example => example.toObject())
+      return whims.map(whim => whim.toObject())
     })
     // respond with status 200 and JSON of the examples
     .then(whims => res.status(200).json({ whims }))
