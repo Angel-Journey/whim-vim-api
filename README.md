@@ -6,6 +6,7 @@ This application allows the user to mangage a list of their favorite hobbies. Th
 # Important Links
 * Client Repo: [view here](https://github.com/Angel-Journey/Tika-Taka-Toe)
 * Deployed Client: [view here](https://angel-journey.github.io/whim-vim-client/)
+* Deployed API: [view here](https://whim-vim-api.herokuapp.com)
 
 # User Stories
 * As a user I want to sign in/up.
