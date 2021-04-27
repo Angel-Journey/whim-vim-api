@@ -4,7 +4,7 @@
 This application allows the user to mangage a list of their favorite hobbies. They can create new list entries, read their list, update pre-existing entries, and delete entries.
 
 # Important Links
-* Client Repo: [view here](https://github.com/Angel-Journey/Tika-Taka-Toe)
+* Client Repo: [view here](https://github.com/Angel-Journey/whim-vim-client)
 * Deployed Client: [view here](https://angel-journey.github.io/whim-vim-client/)
 * Deployed API: [view here](https://whim-vim-api.herokuapp.com)
 
